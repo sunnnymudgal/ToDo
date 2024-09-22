@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added for better layout control */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Adding a default font */
+}
+
+.head-div {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 2px solid #ccc; /* Added for a clearer division */
+}
+
+.table {
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%; /* Makes the table take the full width of its container */
+    border-collapse: collapse; /* Removes double borders */
+    margin: 20px auto; /* Center the table */
+    font-size: 18px; /* Adjusted for better readability */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #f9f9f9; /* Differentiates the header */
+    font-weight: bold;
+}
+
+td input[type="text"] {
+    width: 100%; /* Makes inputs stretch to the cell's width */
+    padding: 5px;
+    box-sizing: border-box; /* Ensures padding does not affect width */
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #f44336; /* Red button for delete */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
